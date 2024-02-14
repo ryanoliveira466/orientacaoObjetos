@@ -10,7 +10,7 @@ export class NobleHouse {
     constructor(houseName: string, houseAnthem: string){
 
         this.houseName = houseName
-        this.houseName = houseAnthem
+        this.houseAnthem = houseAnthem
         
 
     }
