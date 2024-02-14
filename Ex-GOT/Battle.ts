@@ -11,7 +11,7 @@ const Stark = new houseStark("Stark", "Anthem Stark", 35, 1000);
 const Lannister = new houseLannister("Lannister", "Anthem Lannister", 70, 2000);
 const Targaryen = new houseTargaryen("Targaryen", "Anthem Targaryen", 30, 4000);
 const Baratheon = new houseBaratheon("Baratheon", "Anthem Baratheon", 40, 9000);
-const Greyjoy = new houseGreyjoy("Stark", "Anthem Greyjoy", 45, 5000);
+const Greyjoy = new houseGreyjoy("Greyjoy", "Anthem Greyjoy", 45, 5000);
 
 
 
