@@ -197,13 +197,13 @@ let valuesAvg: number = 0
 let valuesArray: number[] = []
 let valuesClass = {
   
-  math: number = 9
-  geo: number = 9
-  eng: number = 9 
+  math:9,
+  geo:9,
+  eng:9, 
 
 }
 
-for(i in valuesClass){
+for(const i in valuesClass){
   
   valuesAvg += valuesClass[i]
   valuesArray.push(valuesClass[i])
