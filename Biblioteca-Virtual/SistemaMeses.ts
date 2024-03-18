@@ -123,8 +123,7 @@ let DecNumberX: number = 23
 
 
 
-// Supondo que seja hoje
-//current date sendo o dia do devolvimento
+
 
 
 function verificarMulta(ddd: string, currentDate: string): void | Boolean {
