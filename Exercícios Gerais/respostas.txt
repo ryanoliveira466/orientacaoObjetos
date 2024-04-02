@@ -1,0 +1,22 @@
+1. --- 4
+2. --- 1
+3. --- 1
+4. --- 4
+5. --- 3
+6. --- 1
+7. --- 2
+8. --- 2
+9. --- 1
+10.--- 4
+
+Interpretação de código
+
+1) Será impresso no console que a propriedade 'name' é privada.
+
+2) Será impesso as funcionalidades
+
+3) Classe shape e Classe Circle tem o mesmo nome de método
+
+4) Interface não pode conter a lógica dentro do método
+
+5) Será impresso 4
