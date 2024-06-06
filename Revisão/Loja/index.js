@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Book_1 = require("./Book");
+var Eletronic_1 = require("./Eletronic");
+var CreditCardPayment_1 = require("./CreditCardPayment");
+var DigitalWalletPayment_1 = require("./DigitalWalletPayment");
+var ShoppingCart_1 = require("./ShoppingCart");
+var livro = new Book_1.Book('A Arte da Guerra', 29.99, "Sun Tzu");
+var celular = new Eletronic_1.Eletronic('Smartphone', 999.99, 'Apple');
+var cartaoCredito = new CreditCardPayment_1.CreditCardPayment();
+var carteiraDigital = new DigitalWalletPayment_1.DigitalWalletPayment();
+var carrinho = new ShoppingCart_1.ShoppingCart(cartaoCredito);
+carrinho.addItem(livro);
+carrinho.addItem(celular);
+carrinho.checkout();

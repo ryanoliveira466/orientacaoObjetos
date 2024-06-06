@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ArrayList_1 = require("./ArrayList");
+var EnumComida_1 = require("./EnumComida");
+var restaurante = new ArrayList_1.ArrayList();
+restaurante.addPedido('Trufa', EnumComida_1.TipoComida.Sobremesa);
+restaurante.addPedido('Coca', EnumComida_1.TipoComida.Bebida);
+restaurante.addPedido('À La Minuta', EnumComida_1.TipoComida.Almoco);
+restaurante.mostrar();
+restaurante.preparoPedido();
+restaurante.saidaPedidos();
