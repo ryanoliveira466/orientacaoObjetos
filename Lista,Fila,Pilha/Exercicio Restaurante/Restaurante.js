@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var TipoComida_1 = require("./TipoComida");
+var ArrayLista_1 = require("./ArrayLista");
+var sistema = new ArrayLista_1.ArrayLista();
+sistema.registrarPedidoGarcom('Pudim', TipoComida_1.TipoComida.Sobremesas);
+sistema.registrarPedidoGarcom('Espaguete', TipoComida_1.TipoComida.Prato_Principal);
+sistema.registrarPedidoGarcom('Guaraná', TipoComida_1.TipoComida.Bebidas);
+sistema.preparoMaisRapido();
+sistema.saidaPedidos();
