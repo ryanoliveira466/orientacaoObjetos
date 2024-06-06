@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Dog_1 = require("./Dog");
+var Owl_1 = require("./Owl");
+var myDog = new Dog_1.Dog("Mia", 6);
+var myOwl = new Owl_1.Owl("Coruja", 5);
+myDog.bark();
+myDog.eat(5);
+myOwl.chirp();
+myOwl.eat(5);
+myOwl.fly(5);
