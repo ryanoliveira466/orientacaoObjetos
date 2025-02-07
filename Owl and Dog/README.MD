@@ -27,3 +27,49 @@ const meuCarro = new Carro("Fusca", 1978);
 
 // Chamando um método da classe
 meuCarro.exibirDetalhes(); // Saída: Modelo: Fusca, Ano: 1978
+
+---
+
+# Polimorfismo em TypeScript
+
+**Polimorfismo** é um dos princípios fundamentais da Programação Orientada a Objetos (POO) que permite que diferentes classes possam ser tratadas de maneira uniforme, mas com comportamentos diferentes.
+
+Em TypeScript, o polimorfismo é geralmente alcançado através de **herança** e **interfaces**. Ele permite que objetos de diferentes tipos sejam tratados de forma similar, mesmo possuindo implementações diferentes.
+
+### Exemplo básico de Polimorfismo:
+
+```typescript
+// Classe base
+class Animal {
+  public fazerSom(): void {
+    console.log("Som de animal");
+  }
+}
+
+// Classe derivada - Cachorro
+class Cachorro extends Animal {
+  public fazerSom(): void {
+    console.log("Au Au");
+  }
+}
+
+// Classe derivada - Gato
+class Gato extends Animal {
+  public fazerSom(): void {
+    console.log("Miau");
+  }
+}
+
+// Função que aceita qualquer tipo de Animal
+function emitirSom(animal: Animal): void {
+  animal.fazerSom();
+}
+
+// Instanciando objetos
+let cachorro = new Cachorro();
+let gato = new Gato();
+
+// Polimorfismo em ação
+emitirSom(cachorro); // Saída: Au Au
+emitirSom(gato);     // Saída: Miau
+
