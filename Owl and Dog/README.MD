@@ -27,6 +27,7 @@ const meuCarro = new Carro("Fusca", 1978);
 
 // Chamando um método da classe
 meuCarro.exibirDetalhes(); // Saída: Modelo: Fusca, Ano: 1978
+```
 
 ---
 
