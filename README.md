@@ -30,9 +30,21 @@ npm -v
 
 ## Como utilizar
 
+* Para instalar o TypeScript escreva no terminal:
+
+```bash
+npm install -g typescript
+```
+
+* Para rodar o projeto é necessário primeiro transpilar o código
+para JavaScript:
+
+```bash
+npx tsc nomeDoScript.ts
+```
+
 * Para utilizar o código escreva no terminal:
 
 ```bash
 node nomeDoScript.js
 ```
-
