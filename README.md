@@ -3,7 +3,7 @@
 Este repositório contém atividades de prática sobre algoritmos e lógica de programação utilizando JavaScript.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="200" />
-<img src="https://commons.wikimedia.org/wiki/File:TypeScript_ESLint_logo.svg#/media/File:TypeScript_ESLint_logo.svg" width="200" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/TypeScript_ESLint_logo.svg/256px-TypeScript_ESLint_logo.svg.png?20220225151303" width="200" />
  
 
 ## Objetivo
