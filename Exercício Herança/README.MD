@@ -41,3 +41,45 @@ class Cachorro extends Animal {
 // Criando uma instância da classe Cachorro
 const meuCachorro = new Cachorro('Rex');
 meuCachorro.fazerSom(); // Output: Rex late.
+```
+
+---
+
+# Getters e Setters em TypeScript
+
+**Getters** e **Setters** são métodos especiais em TypeScript usados para acessar ou modificar as propriedades de uma classe de forma controlada. Eles permitem controlar o comportamento de leitura e escrita das propriedades de um objeto.
+
+### Exemplo de Getters e Setters:
+
+```typescript
+class Pessoa {
+  private _nome: string;
+
+  constructor(nome: string) {
+    this._nome = nome;
+  }
+
+  // Getter
+  public get nome(): string {
+    return this._nome;
+  }
+
+  // Setter
+  public set nome(nome: string) {
+    if (nome.length > 3) {
+      this._nome = nome;
+    } else {
+      console.log("Nome muito curto!");
+    }
+  }
+}
+
+const pessoa = new Pessoa("João");
+
+console.log(pessoa.nome);  // Acessa o nome usando o getter
+
+pessoa.nome = "Maria";  // Modifica o nome usando o setter
+console.log(pessoa.nome);  // Acessa novamente o nome
+
+pessoa.nome = "Li";  // Não altera o nome, pois é muito curto
+
