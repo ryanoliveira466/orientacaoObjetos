@@ -1,13 +1,13 @@
-# Atividades sobre Algoritmos e Lógica de Programação com JavaScript
+# Atividades sobre Orientação a Objetos usando JavaScript/TypeScript
 
-Este repositório contém atividades de prática sobre algoritmos e lógica de programação utilizando JavaScript.
+Este repositório contém atividades de prática sobre orientação a objetos e lógica de programação utilizando JavaScript/TypeScript.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="200" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/TypeScript_ESLint_logo.svg/256px-TypeScript_ESLint_logo.svg.png?20220225151303" width="200" />
  
 
 ## Objetivo
-Aprender a implementar algoritmos e entender os conceitos fundamentais da programação com JavaScript.
+Aprender a implementar conceitos de Orientação a Objetos (OO) e entender os fundamentos da programação utilizando TypeScript. Com isso, será possível criar classes, instâncias, heranças e aplicar encapsulamento de maneira eficiente, aproveitando os recursos de tipagem estática para garantir maior segurança e clareza no código.
 
 ## Dependências
 
