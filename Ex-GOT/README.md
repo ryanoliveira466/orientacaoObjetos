@@ -14,7 +14,7 @@
    
 
 4. **Crie uma classe `Heir`** que implementa a interface `HouseHeir`que contenha o seguinte:
-   - os atributos devem ser public.
+   - Os atributos devem ser public.
 
 
 # Exercício 2: Extensão das Casas Nobres
