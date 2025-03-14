@@ -8,54 +8,54 @@
 - [ ]  A palavra-chave `protected` para permitir acesso aos membros apenas dentro da classe e suas subclasses.
 - [ ]  Todas as opções acima.
 
-1. Qual é a maneira correta de definir uma classe filha que herda propriedades e métodos de uma classe pai?
+2. Qual é a maneira correta de definir uma classe filha que herda propriedades e métodos de uma classe pai?
 - [ ]  Usando a palavra-chave `extends` na declaração da classe filha.
 - [ ]  Copiando e colando o código da classe pai para a classe filha.
 - [ ]  Usando a palavra-chave `inherits` na declaração da classe filha.
 - [ ]  Não é possível herdar propriedades e métodos.
 
-1. As interfaces são usadas para:
+3. As interfaces são usadas para:
 - [ ]  Definir estruturas de dados e contratos para objetos.
 - [ ]  Implementar funcionalidades específicas em classes.
 - [ ]  Definir métodos privados em classes.
 - [ ]  Nenhuma das opções acima.
 
-1. O polimorfismo refere-se a:
+4. O polimorfismo refere-se a:
 - [ ]  A capacidade de uma classe ter múltiplos construtores.
 - [ ]  A capacidade de uma classe ter múltiplos métodos com o mesmo nome, mas com diferentes implementações.
 - [ ]  A capacidade de uma classe herdar de múltiplas classes pai.
 - [ ]  A capacidade de uma classe encapsular múltiplos objetos.
 
-1. Qual é a diferença fundamental entre herança de classes e implementação de interfaces?
+5. Qual é a diferença fundamental entre herança de classes e implementação de interfaces?
 - [ ]  Herança de classes permite a reutilização de código, enquanto interfaces não.
 - [ ]  Implementação de interfaces permite a reutilização de código, enquanto herança de classes não.
 - [ ]  Herança de classes é mais flexível do que implementação de interfaces.
 - [ ]  Não há diferença entre herança de classes e implementação de interfaces.
 
-1. Qual das seguintes estruturas de dados é mais adequada para implementar um sistema de gerenciamento de tarefas em um aplicativo de lista de afazeres, onde as tarefas são adicionadas no final, removidas do início e processadas na ordem em que foram adicionadas?
+6. Qual das seguintes estruturas de dados é mais adequada para implementar um sistema de gerenciamento de tarefas em um aplicativo de lista de afazeres, onde as tarefas são adicionadas no final, removidas do início e processadas na ordem em que foram adicionadas?
 - [ ]  Pilha.
 - [ ]  Fila.
 - [ ]  Lista.
 
-1. Qual é a vantagem de usar getters e setters em classes?
+7. Qual é a vantagem de usar getters e setters em classes?
 - [ ]  Eles melhoram a legibilidade do código.
 - [ ]  Eles facilitam a manipulação de dados privados.
 - [ ]  Eles evitam a necessidade de encapsulamento.
 - [ ]  Nenhuma das opções acima.
 
-1. O que é um construtor em uma classe?
+8. O que é um construtor em uma classe?
 - [ ]  Um método usado para criar instâncias da classe.
 - [ ]  Um método especial que é automaticamente invocado quando uma instância da classe é criada.
 - [ ]  Um método usado para destruir instâncias da classe.
 - [ ]  Um método usado para modificar propriedades da classe após sua criação
 
-1. Como enumeradores são definidos e qual sua finalidade?
+9. Como enumeradores são definidos e qual sua finalidade?
 - [ ]  Enumeradores são definidos usando a palavra-chave enum e são usados para representar um conjunto de valores nomeados. Por exemplo, enumerações podem ser usadas para representar dias da semana ou estados de um objeto.
 - [ ]  Enumeradores são definidos usando a palavra-chave enum e são usados apenas para criar coleções de constantes numéricas.
 - [ ]  Enumeradores são definidos usando a palavra-chave enum e são usados exclusivamente para definir métodos dentro de uma classe.
 - [ ]  Enumeradores são definidos usando a palavra-chave enum e são usados apenas para declarar variáveis dentro de funções.
 
-1. Como TypeScript lida com a visibilidade de membros (public, private, protected) em classes?
+10. Como TypeScript lida com a visibilidade de membros (public, private, protected) em classes?
 - [ ]  TypeScript não suporta visibilidade de membros em classes.
 - [ ]  A visibilidade de membros em TypeScript é determinada pelo contexto de execução.
 - [ ]  TypeScript ignora completamente as palavras-chave de visibilidade.
