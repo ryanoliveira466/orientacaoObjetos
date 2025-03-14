@@ -242,14 +242,14 @@ Você foi contratado para desenvolver um sistema de gerenciamento de histórico 
 
 Desenvolva uma classe que utilize a estrutura de dados mais adequada que permita armazenar o histórico de navegação do usuário e implemente um método para desfazer a última ação de navegação.
 
-**Dica 1:** toda vez que você navega, o última página que você visitou vai para o topo do histórico.
+**Dica 1:** Toda vez que você navega, o última página que você visitou vai para o topo do histórico.
 
-**Dica 2:** a função que desfaz a última ação de navegação remove a última página que foi visitada, ou seja, a que está no topo do histórico.
+**Dica 2:** A função que desfaz a última ação de navegação remove a última página que foi visitada, ou seja, a que está no topo do histórico.
 
-**Dica 3:** você pode usar simples strings para representar as páginas, como **"Site Exemplo"** ou **http://www.meusite.com/**
+**Dica 3:** Você pode usar simples strings para representar as páginas, como **"Site Exemplo"** ou **http://www.meusite.com/**
 
-**Dica 4:** não esqueça que também deve ser mostrado o histórico!
+**Dica 4:** Não esqueça que também deve ser mostrado o histórico!
 
-**Dica 5:** acesse os pdfs para descobrir qual a melhor estrutura de código para este caso
+**Dica 5:** Acesse os pdfs para descobrir qual a melhor estrutura de código para este caso.
 
 Seu objetivo é criar uma solução que seja capaz de armazenar o histórico de navegação e permitir que o usuário desfaça a última ação de navegação.
